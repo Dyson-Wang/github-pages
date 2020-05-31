@@ -1,0 +1,435 @@
+顶部盒子*/
+.top {
+	height: 101px;
+	background-color: #fff;
+}
+.topbox {
+	height: 101px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.topbox ul>li{
+	float: left;
+}
+.logo {
+	width:170px;
+	height:101px;
+	margin-right: 79px;
+	font-size:40px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	line-height: 101px;
+	color:rgba(0,163,255,1);
+}
+.logoho {
+	height:40px;
+	width: 54px;
+	margin: 30px 8px 29px 0;
+	font-size:18px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	text-align: center;
+	border-bottom: 2px solid white;
+	line-height: 40px;
+	color:rgba(5,5,5,1);
+}
+.logoho1 {
+	height:40px;
+	width: 108px;
+	margin: 30px 8px 29px 0;
+	font-size:18px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	text-align: center;
+	border-bottom: 2px solid white;
+	line-height: 40px;
+	color:rgba(5,5,5,1);
+}
+.logoho:hover {
+	border-bottom: 2px solid rgba(0,163,255,1);
+}
+.logoho1:hover {
+	border-bottom: 2px solid rgba(0,163,255,1);
+}
+/*顶部右半部分*/
+.kuang1 {
+	display: inline-block;
+	margin-top: 31px;
+	margin-bottom: 30px;
+	width: 360px;
+	height: 38px;
+	border:1px solid rgba(0,163,255,1);
+	float: right;
+	color: rgba(0, 163, 255, 1);
+}
+.sousuo {
+	display: inline-block;
+	float: right;
+	line-height: 40px;
+	text-align: center;
+	width: 50px;
+	height: 40px;
+	margin-top: 31px;
+	margin-bottom: 30px;
+	background: rgba(0, 163, 255, 1);
+}
+#grzx {
+	float: right;
+	height: 100px;
+	margin-left: 32px;
+	margin-right: 42px;
+	line-height: 100px;
+	text-align: center;
+}
+/*滚动图片盒子*/
+.roll {
+	height:420px;
+	background:rgba(27,3,107,1);
+}
+.rollbox {
+	height: 420px;
+	width: 1230px;
+	margin: 0 auto;
+	position: relative;
+}
+.rollbox img{
+	float: right;
+}
+.rollbox li {
+	padding-left: 20px;
+	padding-top: 14px;
+	padding-bottom: 13px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+}
+.rollbox ul {
+	position: absolute;
+	left: 0;
+	width:190px;
+	height:420px;
+	background:rgba(0,0,0,0.3);
+}
+.rollbox a {
+	color: rgba(255,255,255,1);
+}
+.rollbox li>img {
+	padding-right: 20px;
+}
+/*中部*/
+.mid {
+	background: rgba(243,245,247,0.8);
+}
+/*兴趣盒子*/
+.hobby {
+	width: 1200px;
+	height:60px;
+	margin: 7px auto;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 2px 2px 0px rgba(118,118,118,0.2);
+}
+.hobby a {
+	color: rgba(5, 5, 5, 1)
+}
+#pre a {
+	margin-right: 24px;
+	margin-left: 34px;
+	float: left;
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(0,163,255,1);
+	line-height: 60px;
+}
+.langu {
+	width: 122px;
+	height: 16px;
+	margin: 22px 0;
+	text-align: center;
+	border-left: 1px solid;
+	float: left;
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(5,5,5,1);
+}
+#hobfont a {
+	margin-right: 61px;
+	float: right;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	font-weight:regular;
+	color:rgba(0,163,255,1);
+	line-height: 60px;
+}
+/*主要内容*/
+.midbody {
+	width: 1200px;
+	margin: 0 auto;
+}
+.pot {
+	width: 1200px;
+	height: 60px;
+	margin: 0 auto;
+}
+.frt {
+	float: left;
+	line-height: 60px;
+	font-size:20px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(72,72,72,1);
+}
+.mde {
+	display: inline-block;
+	width: 330px;
+	line-height: 60px;
+	margin-left: 280px;
+}
+.mde a {
+	margin-left: 45px;
+}
+.pot a {
+	color: rgba(134,134,134,1);
+}
+.bhd {
+	margin-right: 35px;
+	float: right;
+	line-height: 60px;
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(165,165,165,1);
+}
+/*主体排版*/
+.main0 {
+	width: 1200px;
+	height: 570px;
+	margin: 0 auto;
+	background: rgba(243,245,247,0.8);
+}
+.content {
+	width: 228px;
+	height: 270px;
+	margin-bottom: 15px;
+	overflow: hidden;
+	float: left;
+	background: rgba(255,255,255,1);
+}
+.content img {
+	margin-bottom: 24px;
+}
+.tile {
+	margin-left: 23px;
+	margin-right: 20px;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: Microsoft YaHei;
+	color: rgba(5,5,5,1);
+}
+.eg {
+	margin-top: 18px;
+	margin-bottom: 26px;
+	margin-left: 23px;
+	margin-right: 86px;
+	font-family: MicrosoftYaHei;
+	font-weight: 400;
+	font-size: 12px;
+	color: rgba(255,123,45,1);
+}
+.eg span{
+	color: rgba(153,153,153,1);
+}
+/*特殊排版*/
+#p1 {
+	margin-left: 15px;
+}
+.content:hover{
+	box-shadow:0px 4px 4px 0px rgba(118,118,118,0.2);
+}
+/*主体排版二*/
+.main1 {
+	width: 1200px;
+	height: 285px;
+	margin: 0 auto;
+	background: rgba(243,245,247,0.8);
+}
+.eg0 {
+	margin-top: 38px;
+	margin-bottom: 26px;
+	margin-left: 23px;
+	margin-right: 86px;
+	font-family: MicrosoftYaHei;
+	font-weight: 400;
+	font-size: 12px;
+	color: rgba(255,123,45,1);
+}
+.eg0 span{
+	color: rgba(153,153,153,1);
+}
+/*大牛盒子*/
+.main2 {
+	width: 1200px;
+	height: 400px;
+	margin: 0 auto;
+	background: rgba(243,245,247,0.8);
+}
+.contentJS {
+	width: 471px;
+	height: 320px;
+	margin-bottom: 15px;
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+	background: rgba(255,255,255,1);
+	position: relative;
+}
+.contentJS li {
+	width: 163px;
+	height: 62px;
+	font-size:27px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+	line-height:36px;
+	position: absolute;
+	top: 99px;
+	left: 25px;
+}
+.contentJS span {
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(249,224,3,1);
+}
+.pic0 {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 228px;
+	height: 320px;
+	overflow: hidden;
+	margin-left: 15px;
+}
+.pic {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 228px;
+	height: 320px;
+	overflow: hidden;
+	margin-left: 15px;
+}
+.grey {
+	position: absolute;
+	bottom: 0;
+	width: 228px;
+	height: 122px;
+}
+.int {
+	margin-top: 21px;
+	margin-right: 93px;
+	margin-left: 31px;
+}
+.wkin {
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(255,255,255,0.8);
+	line-height:20px;
+}
+.name {
+	font-size:18px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(255,255,255,0.9);
+	line-height:20px;
+}
+.intro {
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(255,255,255,0.8);
+	line-height:20px;
+	margin-top: 12px;
+	margin-left: 27px;
+}
+/*底部盒子*/
+/*左边半部分*/
+.footer {
+	background: rgba(255,255,255,1);
+}
+.footerbox {
+	width: 1200px;
+	height: 420px;
+	margin: 0 auto;
+}
+.lft {
+	float: left;
+	width: 400px;
+	margin-left: 21px;
+	margin-top: 124px;
+}
+#xueli {
+	width:200px;
+	height:36px;
+	font-size:36px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(0,163,255,1);
+	line-height:21px;
+	margin-bottom: 35px;
+}
+#ltl {
+	width:400px;
+	height:12px;
+	font-size:12px;
+	font-family:SimSun;
+	font-weight:400;
+	color:rgba(101,101,101,1);
+	line-height:18px;
+	margin-bottom: 33px;
+}
+#app {
+	width: 120px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 16px;
+	text-align: center;
+	border: 1px solid rgba(0,163,255,1);
+}
+#app a{
+	color: rgba(0,163,255,1);
+}
+/*右半部分*/
+.rit {
+	margin-top: 124px;
+	float: right;
+}
+.botile {
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	line-height:21px;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+.potile {
+	font-size:12px;
+	font-family:SimSun;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	line-height:21px;
+}
+.rit a {
+	color:rgba(51,51,51,1);
+}
+#hezuo {
+	margin-right: 31px;
+}
+#zhinan {
+	margin-right: 121px;
+}
+#guanyu {
+	margin-right: 146px;
+}
